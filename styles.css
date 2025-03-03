@@ -1,0 +1,104 @@
+/* General Page Styling */
+.body-class {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+.header-class {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation Bar */
+.nav-class {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: center;
+}
+.nav-class a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.nav-class a:hover {
+    background-color: #1abc9c;
+    border-radius: 5px;
+}
+
+/* Headings */
+.title-class, .section-title-class {
+    color: #1abc9c;
+}
+
+/* Text */
+.text-class {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Images */
+.image-class {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #1abc9c;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+/* Forms */
+.form-class {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.label-class {
+    font-weight: bold;
+    color: #2c3e50;
+}
+.input-class {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button-class {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+.button-class:hover {
+    background-color: #16a085;
+}
+
+/* Footer */
+.footer-class {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-class a {
+        display: block;
+        padding: 10px;
+    }
+}
